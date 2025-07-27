@@ -7,7 +7,7 @@ phases:
   post_build:
     commands:
       - echo Deploying to S3...
-      - aws s3 sync . s3://pankajsaibucket --delete
+      - aws s3 sync . s3://codepipeline-ap-south-1-260619bca840-49e2-9e5e-a1e15d4c9a83 --delete
 
 artifacts:
   files:
